@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#todo {
+  margin: 5% 30% 0 30%;
+  text-align: center;
+  background-color: rgb(40, 157, 230);
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#title,
+#title2 {
+  text-decoration: underline;
+}
+
+#item-name {
+  margin-right: 4px;
+  font-size: large;
+  padding-left: 10px;
+}
+
+#button {
+  padding: 6px;
+  width: 55px;
+  background-color: yellowgreen;
+  border-radius: 4px;
+}
+
+#list1 {
+  position: relative;
+  font-size: 20px;
+  list-style: none;
+  margin-right: 60px;
+  margin-left: 20px;
+}
+
+#list1 li {
+  border-radius: 6px;
+  border: 1px solid white;
+  margin-bottom: 5px;
+  background-color: whitesmoke;
+  padding: 5px;
+  text-align: justify;
+}
+
+#list1 li i {
+  position: absolute;
+  right: 10px;
+  color: black;
+}
+
+@media (max-width: 633px) {
+  #item-name {
+    width: 90px;
+  }
+}
